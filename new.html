@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>INSTAGRAM</h1>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = "Hai minna!";
+</script> 
+
+	<section>
+	<h2>Perjalanan</h2>
+	<p>Ini adalah kisah dari pak Ahmad yang dulunya adalah seorang kreator 		vidio yang akhirnya menjadi desainer handal.</p>
+	</section>
+
+		<section>
+		<h2>Awal Mula</h2>
+		<p>Jadi awal mula perjalanannya seperti ini, dulunya pak Ahmad 				senang sekali membuat vidio-vidio yang menarik hingga akhirnya dia 			menjadi kreator vidio yang sangat handal tapi seiring berjalannya 			waktu dia mulai bosan menjalankan kegiatannya tersebut dan pada 			akhirnya dia memulai usaha baru yaitu menjadi Desainer.</p>
+		</section>
+        	
+            <label for="cars">Data drop-down</label>
+
+<select name="cars" id="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select>
+
+    <p>Teks normal.</p>
+    <p><small>Teks kecil.</small></p>
+    
+    <audio controls>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+</audio>
+
+			<p>My mother has <span style="color:blue">blue</span> eyes.</p>
+
+<p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+<p><s>My car is blue.</s></p>
+<strong>Untuk teks yang penting!</strong>
+<p>This is normal text - <b>and this is bold text</b>.</p>
+
+warna
+  1  <style>
+      h1 {color:red;}
+      p {color:blue;}
+    </style>
+
+  2    <style>
+      body {
+        background-color: lightblue;
+      }
+
+      h1 {
+        color: black;
+        text-align: center;
+      }
+      
+size dan font
+      <style>
+      body {
+      }
+    p {
+        font-family: code;
+        font-size: 20px;
+      }
+      </style>
+     
+
+<h1>My First CSS Example</h1>
+<p>This is a paragraph.</p>
+
+<h1>Judul</h1>
+<p>Paragraf.</p>
+
+      <h1>The sub and sup elements</h1>
+
+      <p>This text contains <sub>subscript</sub> text.</p>
+      <p>This text contains <sup>superscript</sup> text.</p>
+
+        <h1>Ringkasan</h1>
+
+        <details>
+          <summary>buku</summary>
+          <p>buku biasanya dipakai oleh para penulis</p>
+        </details>
+
+<h1>The svg element</h1>
+bulat
+<svg width="100" height="100">
+  <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+</svg>
+kotak
+<svg width="100" height="100">
+  <rect width="100" height="100" style="fill:rgb(0,0,255);stroke-width:10;stroke:rgb(0,0,0)" />
+</svg>
+tumpul
+<svg width="400" height="180">
+  <rect x="50" y="20" rx="20" ry="20" width="150" height="150" style="fill:red;stroke:black;stroke-width:5;opacity:0.5" />
+</svg>
+bintang
+<svg width="300" height="200">
+  <polygon points="100,10 40,198 190,78 10,78 160,198"
+  style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
+</svg>
+
+<svg height="130" width="500">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"
+      style="stop-color:rgb(255,255,0);stop-opacity:1" />
+      <stop offset="100%"
+      style="stop-color:rgb(255,0,0);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+  <text fill="#ffffff" font-size="45" font-family="Verdana"
+  x="50" y="86">SVG</text>
+</svg>
+
+            <style>
+            table, th, td {
+              border: 1px solid black;
+            }
+            </style>
+            </head>
+            <body>
+
+            <h1>The table element</h1>
+
+            <table>
+              <tr>
+                <th>Month</th>
+                <th>Savings</th>
+              </tr>
+              <tr>
+                <td>January</td>
+                <td>$100</td>
+              </tr>
+              <tr>
+                <td>February</td>
+                <td>$80</td>
+              </tr>
+            </table>
+            
+<h1>The template Element</h1>
+
+<p>Click the button below to display the hidden content from the template element.</p>
+
+<button onclick="showContent()">Show hidden content</button>
+
+<template>
+  <h2>Flower</h2>
+  <img src="img_white_flower.jpg" width="214" height="204">
+</template>
+
+<script>
+function showContent() {
+  var temp = document.getElementsByTagName("template")[0];
+  var clon = temp.content.cloneNode(true);
+  document.body.appendChild(clon);
+}
+</script>
+
+
+          <h1>The textarea element</h1>
+
+          <form action="/action_page.php">
+          <label for="w3review">Review of W3Schools:</label>
+          <textarea id="w3review" name="w3review" rows="4" cols="50">
+            At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+            </textarea>
+            <br><br>
+            <input type="submit" value="Submit">
+          </form>
+
+          <p>Click the "Submit" button and the form-data will be sent to a page on the 
+          server called "action_page.php".</p>
+		  
+		  <p>Place a line break underneath this sentence.
+<br>
+Place a line break above this sentence.</p>
+
+Place a line break underneath this sentence
+
+Place a line break above this sentence.
+
+</body>
+</html>
